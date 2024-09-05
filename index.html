@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Peixes - Stardew Valley</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Peixes de Stardew Valley</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Nome</th>
+                <th>Estação</th>
+                <th>Local</th>
+                <th>Clima</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tbody>
+                <tr class="fish" id="baiacu" onclick="toggleFish(this)">
+                  <td><img src="images/baiacu.png" alt="Baiacu" /></td>
+                  <td><a href="https://pt.stardewvalleywiki.com/Baiacu" target="_blank">Baiacu</a></td>
+                  <td>Verão</td>
+                  <td>Oceano</td>
+                  <td>Sol</td>
+                </tr>
+                <tr class="fish" id="anchova" onclick="toggleFish(this)">
+                  <td><img src="images/anchova.png" alt="Anchova" /></td>
+                  <td><a href="https://pt.stardewvalleywiki.com/Anchova" target="_blank">Anchova</a></td>
+                  <td>Primavera, Outono</td>
+                  <td>Oceano</td>
+                  <td>Qualquer</td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Adicione mais peixes aqui -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
